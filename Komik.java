@@ -1,8 +1,8 @@
 public class Komik extends Buku{
     private int volume;
 
-    public void getVolume(){
-
+    public int getVolume(){
+        return this.volume;
     }
 
     public void naikkanHarga(){
